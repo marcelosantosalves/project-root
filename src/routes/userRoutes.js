@@ -187,11 +187,4 @@ router.put('/:id', authMiddleware, userController.update);
  */
 router.delete('/:id', authMiddleware, userController.delete);
 
-
- *     responses:
- *       '204':
- *         description: 'Usuário deletado com sucesso. Nenhuma resposta no corpo.'
- *       '401':
- *         description: 'Não autorizado. Token inválido ou não fornecido.'
- *       '404':
- *         descriptimodule.exports = router;
+module.exports = router;
