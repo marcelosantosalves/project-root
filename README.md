@@ -1,20 +1,20 @@
-👥 User Management API
+ User Management API
 Uma API REST robusta e minimalista para cadastro e listagem de usuários, desenvolvida com Node.js e Express. O sistema garante a integridade dos dados através de validações rigorosas de e-mail e segurança de senha.
 ------------------------------
-🚀 Funcionalidades
+ Funcionalidades
 
 * Cadastro Seguro: Validação de formato de e-mail e políticas de senha.
 * Listagem Dinâmica: Recuperação em tempo real de todos os usuários registrados.
 * Feedback Apropriado: Implementação de códigos de status HTTP padronizados.
 * Hot Reload: Ambiente de desenvolvimento otimizado com Nodemon.
 
-🛠️ Tecnologias
+ Tecnologias
 
 * Node.js - Runtime JavaScript.
 * Express - Framework web rápido e minimalista.
 * Nodemon - Monitoramento de arquivos para desenvolvimento.
 
-📦 Instalação e UsoPré-requisitos
+ Instalação e UsoPré-requisitos
 
 * Node.js (v14+)
 * npm ou yarn
@@ -41,7 +41,7 @@ Passo a Passo
    
    
 ------------------------------
-📡 Endpoints da APIUsuários
+ Endpoints da APIUsuários
 
 | Método | Endpoint | Descrição |
 |---|---|---|
@@ -62,7 +62,7 @@ Regras de Negócio:
 * Senha: Mínimo de 6 caracteres.
 
 ------------------------------
-🧪 TestesREST Client (VS Code)
+ TestesREST Client (VS Code)
 
    1. Certifique-se de ter a extensão REST Client instalada.
    2. Abra o arquivo test.http e clique em Send Request.
@@ -73,7 +73,7 @@ $body = @{ email = "teste@exemplo.com"; senha = "senha123" } | ConvertTo-Json
 Invoke-RestMethod -Method Post -Uri "http://localhost:3000/server" -Body $body -ContentType "application/json"
 
 ------------------------------
-📁 Estrutura do Projeto
+ Estrutura do Projeto
 
 .
 ├── src/
