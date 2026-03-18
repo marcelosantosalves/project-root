@@ -84,6 +84,5 @@ Invoke-RestMethod -Method Post -Uri "http://localhost:3000/server" -Body $body -
 └── README.md          # Documentação
 
 ------------------------------
-Feito por Marcelo dos Santos Alves
-Você gostaria que eu adicionasse uma seção de Tratamento de Erros detalhando o que acontece quando a validação falha?
+uma seção de Tratamento de Erros detalhando o que acontece quando a validação falha?
 
