@@ -83,6 +83,5 @@ Invoke-RestMethod -Method Post -Uri "http://localhost:3000/server" -Body $body -
 ├── package.json       # Dependências e scripts
 └── README.md          # Documentação
 
-------------------------------
-uma seção de Tratamento de Erros detalhando o que acontece quando a validação falha?
+
 
