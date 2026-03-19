@@ -23,8 +23,8 @@ Passo a Passo
 
    1. Clone o repositório:
    
-   git clone https://github.com
-   cd Desafio-2-26-01-2026
+   git clone 
+   
    
    2. Instale as dependências:
    
