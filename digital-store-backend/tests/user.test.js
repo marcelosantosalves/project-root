@@ -2,6 +2,7 @@ const request = require('supertest');
 const app = require('../src/app');
 const { sequelize } = require('../src/models/User');
 
+
 // Este bloco é executado antes de todos os testes neste arquivo.
 // É perfeito para limpar o banco de dados e garantir que os testes comecem do zero.
 beforeAll(async () => {

@@ -1,6 +1,6 @@
 const request = require('supertest');
-const app = require('../../src/app');
-const { sequelize } = require('../../src/models/User'); // Podemos pegar o sequelize de qualquer modelo
+const app = require('../src/app');
+const { sequelize } = require('../src/models/User');
 
 let token;
 

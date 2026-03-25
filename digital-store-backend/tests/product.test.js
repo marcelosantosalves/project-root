@@ -1,7 +1,7 @@
 const request = require('supertest');
-const app = require('../../src/app');
-const { sequelize } = require('../../src/models/User');
-const Product = require('../../src/models/Product'); // Importamos o modelo para buscar o ID
+const app = require('../src/app');
+const { sequelize } = require('../src/models/User');
+const Product = require('../src/models/Product'); // Importamos o modelo para buscar o ID
 
 let token;
 let categoryId;
